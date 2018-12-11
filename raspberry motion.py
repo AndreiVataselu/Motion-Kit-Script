@@ -24,9 +24,12 @@ while True:
     time.sleep(1)
     if pir.motion_detected:
         PATH = "/home/pi/Desktop/images/{}.jpg".format(photo_name)
+        
+        # Take 3 initialization webcam pictures, otherwise pictures will be very dark.
         initialize_photo = cam.get_image()
         initialize_photo = cam.get_image()
         initialize_photo = cam.get_image()
+        
         img = cam.get_image()
         pygame.image.save(img, PATH)
         time.sleep(1)
