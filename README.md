@@ -3,4 +3,4 @@ The script for Raspberry PI. Uses a webcam and a PIR HC-SR501 for motion detecti
 
 I put this script on crontab so whenever I power up my Raspberry PI, the scripts starts automatically.
 
-Will upload soon an iOS App which uses the data from Firebase and sends a push notification whenever the Pi pushes to database. You will be able to view the image directly from the app.
+iOS App to vizualize the data from Pi in realtime here: https://github.com/AndreiVataselu/Motion-Kit-App
